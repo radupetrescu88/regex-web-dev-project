@@ -1,0 +1,31 @@
+// Users
+export const CREATE_USER = "CREATE_USER";
+export const RETRIEVE_USERS = "RETRIEVE_USERS";
+export const UPDATE_USER = "UPDATE_USER";
+export const DELETE_USER = "DELETE_USER";
+export const DELETE_ALL_USERS = "DELETE_ALL_USERS";
+
+// Auth
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const LOGOUT = "LOGOUT";
+
+// Message
+export const SET_MESSAGE = "SET_MESSAGE";
+export const CLEAR_MESSAGE = "CLEAR_MESSAGE";
+
+// Project Teams
+export const CREATE_PROJECT_TEAM = "CREATE_PROJECT_TEAM";
+export const RETRIEVE_PROJECT_TEAMS = "RETRIEVE_PROJECT_TEAMS";
+
+// Projects
+export const CREATE_PROJECT = "CREATE_PROJECT";
+export const UPDATE_PROJECT = "UPDATE_PROJECT";
+export const RETRIEVE_PROJECTS = "RETRIEVE_PROJECTS";
+export const RETRIEVE_PROJECTS_BY_TEAM = "RETRIEVE_PROJECTS_BY_TEAM";
+export const RETRIEVE_PROJECT_BY_ID = "RETRIEVE_PROJECT_BY_ID";
+
+// Role
+export const RETRIEVE_ROLES = "RETRIEVE_ROLES";

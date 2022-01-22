@@ -1,16 +1,18 @@
-### Backend
+## Backend
 
+```
 # cd nodejs-server
-
 # node server.js
+```
 
-### Frontend
+## Frontend
 
+```
 # cd react-crud
-
 # npm start
+```
 
-### Installations
+## Installations
 
 # npm install redux react-redux redux-thunk
 

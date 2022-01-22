@@ -18,7 +18,7 @@ import { getRoles } from "../reducers/roles";
 import { getProjectTeams } from "../reducers/projectTeams";
 import { getProjects } from "../reducers/projects";
 
-import "./login.css";
+import "./register.css";
 
 const RegisterComponent = () => {
   const dispatch = useDispatch();
@@ -120,6 +120,10 @@ const RegisterComponent = () => {
         })
         .catch(() => {});
     }
+  };
+
+  const goToLoginPage = () => {
+    navigate("/login");
   };
 
   return (
@@ -243,10 +247,23 @@ const RegisterComponent = () => {
                       </small>
                     </div>
                   )}
+                  <div className="buttons">
+                    <Button
+                      className="create-account-button"
+                      type="submit"
+                      variant="primary"
+                    >
+                      Create account
+                    </Button>
 
-                  <Button type="submit" variant="primary">
-                    Create account
-                  </Button>
+                    <Button
+                      className="go-back-button"
+                      variant="primary"
+                      onClick={goToLoginPage}
+                    >
+                      Back to login
+                    </Button>
+                  </div>
                 </form>
               </div>
             </div>

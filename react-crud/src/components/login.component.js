@@ -89,12 +89,22 @@ const LoginComponent = () => {
                       {passwordError}
                     </small>
                   </div>
-                  <Button type="submit" variant="primary">
-                    Login
-                  </Button>
-                  <Button variant="primary" onClick={goToCreateAccountPage}>
-                    Create account
-                  </Button>
+                  <div className="buttons">
+                    <Button
+                      className="login-button"
+                      type="submit"
+                      variant="primary"
+                    >
+                      Login
+                    </Button>
+                    <Button
+                      className="create-account-button"
+                      variant="primary"
+                      onClick={goToCreateAccountPage}
+                    >
+                      Create account
+                    </Button>
+                  </div>
                 </form>
               </div>
             </div>
